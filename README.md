@@ -1,4 +1,4 @@
-# alibabarke
+# AliBab RKE
 ## we will install RKE with Three HA node as work controlplane, etcd and worker by simple Ansible Playbook
 
 ### 1. Update Operating System
@@ -43,4 +43,9 @@ rke up
 ### 9. export your cluster to your bash sh or zsh
 ```
 export KUBECONFIG=/home/mrtshoot/alibaba/rke/kube_config_cluster.yml
+```
+
+### 10. Finaly its my Cluster Status
+```
+https://github.com/mrtshoot/alibabarke/blob/main/status.png
 ```
